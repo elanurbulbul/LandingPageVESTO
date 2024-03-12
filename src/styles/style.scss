@@ -8,7 +8,7 @@ $body-color: #212121;
 $body-bg: #fff;
 $border-radius: 0.4rem;
 $success: #28a745;
-$primary: #4f5665;
+$primary: #0B3721;
 $shadow-sm: 0px 0 1px rgba(0, 0, 0, 0.05);
 
 $container-max-widths: (
@@ -18,13 +18,7 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1320px,
 ) !default;
-$zindex-levels: (
-  n1: -1,
-  0: 0,
-  1: 1,
-  2: 2,
-  3: 3,
-) !default;
+
 
 // Import all of Bootstrap's CSS
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
