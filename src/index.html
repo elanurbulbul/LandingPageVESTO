@@ -9,17 +9,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-        </script>
+    </script>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
 </head>
 
-<body>
+<body class="body-bg">
     <nav class="navbar navbar-expand-lg">
         <div class="container ">
             <a class="navbar-brand" href="#vesto">
@@ -51,7 +51,7 @@
                     </defs>
                 </svg>
             </a>
-            <button class="navbar-toggler" type="button"  data-bs-toggle="collapse"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -80,11 +80,32 @@
                 </ul>
                 <form class="form-inline my-lg-0 ">
                     <button class="btn btn-outline-dark me-sm-2" type="submit">Sign In</button>
-                    <button class="btn btn-primary  my-sm-0" type="submit">Schedule a demo</button>
+                    <button class="btn btn-primary my-sm-0" type="submit">Schedule a demo</button>
                 </form>
             </div>
         </div>
     </nav>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-section-title inter">
+                    All of your company's financial accounts in one view
+                </div>
+                <div class="hero-section-description inter">
+                    Connect and control all of your global business accounts from one dashboard. Automatically earn on
+                    your idle cash.
+                </div>
+                <a class="btn btn-primary">
+                    Schedule a demo
+                    <i class="fa-solid fa-arrow-right ms-2"></i>
+                </a>
+                <div class="hero-section-image">
+                    <img src="img/header-section.png" alt="">
+                </div>
+                <div class="hero-section-info-text"></div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

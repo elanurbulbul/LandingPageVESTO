@@ -5,7 +5,7 @@
 $font-family-sans-serif: "Satoshi-Variable", "Satoshi-VariableItalic",
   sans-serif;
 $body-color: #212121;
-$body-bg: #fff;
+$body-bg: #F9F8F1;
 $border-radius: 0.4rem;
 $success: #28a745;
 $primary: #0B3721;
@@ -37,4 +37,43 @@ $container-max-widths: (
 
 section {
   margin: 90px 0;
+}
+.container{
+  text-align: center;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.btn {
+  margin:50px 0;
+  padding: 14px 36px;
+  border-radius: 7px;
+}
+.hero-section{
+
+  .hero-section-title {
+    font-size: 60.9px;
+    font-weight: 500;
+    max-width: 873px;
+    margin: 0 auto;
+  }
+  .hero-section-description {
+    font-size: 22.7px;
+    max-width: 607px;
+    margin: 10px auto;
+  }
+  .hero-section-image{
+    img{
+      width: 100%;
+    }
+  }
+
 }
