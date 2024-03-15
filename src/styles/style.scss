@@ -58,7 +58,6 @@ section {
   border-radius: 7px;
 }
 .hero-section{
-
   .hero-section-title {
     font-size: 60.9px;
     font-weight: 500;
@@ -75,5 +74,23 @@ section {
       width: 100%;
     }
   }
-
+}
+.brands-section{
+  .brands-section-description{
+    font-size: 16.7px;
+  }
+  .brands-section-list{
+    .brand{
+      margin: 10px 0;
+      img{
+        width: 50%;
+      }
+    }
+    @media (max-width:1200px) {
+      .brand{ 
+        margin: 20px 0;
+      }
+      
+    }
+  }
 }
