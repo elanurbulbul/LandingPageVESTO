@@ -36,14 +36,11 @@ $container-max-widths: (
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 section {
-  margin: 90px 0;
+  margin: 50px 0;
 }
 .container{
   text-align: center;
 }
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -57,17 +54,21 @@ section {
   padding: 14px 36px;
   border-radius: 7px;
 }
+nav{
+  height: 100px;
+}
 .hero-section{
   .hero-section-title {
-    font-size: 60.9px;
     font-weight: 500;
-    max-width: 873px;
+    max-width: 975px;
     margin: 0 auto;
+    h1{
+      font-size: 68px;
+    }
   }
   .hero-section-description {
-    font-size: 22.7px;
     max-width: 607px;
-    margin: 10px auto;
+    margin: 20px auto;
   }
   .hero-section-image{
     img{
@@ -77,7 +78,8 @@ section {
 }
 .brands-section{
   .brands-section-description{
-    font-size: 16.7px;
+    font-size: 21px;
+    margin-bottom: 10px;
   }
   .brands-section-list{
     .brand{
