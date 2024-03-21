@@ -97,4 +97,22 @@ section {
     }
   }
 }
-
+.testimionial-section {
+  color: white;
+  margin-top: 0;
+  padding: 60px 0;
+  .testimionial-text {
+    font-size: 36.4px;
+    font-weight: 300;
+  }
+  .author-name {
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .testimonial-author-img {
+    width: 100%;
+    max-width: 320px;
+    
+  }
+  
+}
