@@ -112,7 +112,21 @@ section {
   .testimonial-author-img {
     width: 100%;
     max-width: 320px;
-    
+  } 
+}
+.bento-card-section{
+  .bento-title{
+    margin-bottom: 50px;
   }
-  
+  .card{
+    width: 100%;
+    min-height: 240px;
+    padding:50px;
+    margin-bottom: 20px;
+    .card-title{
+      margin: 15px 0;
+      font-weight: 400;
+      font-size: 18.9px;
+    }
+  } 
 }
