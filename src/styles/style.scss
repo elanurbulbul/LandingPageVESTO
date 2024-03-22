@@ -199,6 +199,7 @@ section {
   }
 }
 .newsletter-section {
+  margin-bottom: 0 ;
   text-align: center;
   background: white;
   padding: 60px 0;
@@ -253,4 +254,25 @@ section {
     }
   }
   
+}
+.testimionial-second-section {
+  color: white;
+  margin: 0;
+  padding: 60px 0;
+  .testimionial-text {
+    font-size: 36.4px;
+    font-weight: 300;
+  }
+  .author-name {
+    font-size: 15px;
+    font-weight: 200;
+  }
+  .testimonial-author-img {
+    width: 100%;
+    max-width: 320px;
+  }
+  .testimionial-description{
+    margin-top: 20px;
+    font-size: 12px;
+  }
 }
