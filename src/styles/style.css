@@ -15085,7 +15085,8 @@ progress {
   .d-print-none {
     display: none !important; } }
 section {
-  margin: 50px 0; }
+  padding: 70px 0;
+  margin: 0; }
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -15099,9 +15100,6 @@ section {
   padding: 14px 36px;
   border-radius: 7px; }
 
-nav {
-  height: 100px; }
-
 .hero-section {
   text-align: center; }
   .hero-section .hero-section-title {
@@ -15111,29 +15109,23 @@ nav {
     .hero-section .hero-section-title h1, .hero-section .hero-section-title .h1 {
       font-size: 68px; }
   .hero-section .hero-section-description {
-    max-width: 607px;
+    max-width: 428px;
     margin: 20px auto; }
   .hero-section .hero-section-image img {
     width: 100%; }
 
 .brands-section {
-  text-align: center; }
+  background: #f2f1e8;
+  text-align: center;
+  padding: 50px 0; }
   .brands-section .brands-section-description {
     font-size: 21px;
-    margin-bottom: 10px; }
-  .brands-section .brands-section-list .brand {
-    margin: 10px 0; }
-    .brands-section .brands-section-list .brand img {
-      width: 50%; }
-  @media (max-width: 1200px) {
-    .brands-section .brands-section-list .brand {
-      margin: 20px 0; } }
+    margin-bottom: 50px; }
+  .brands-section .brands-section-list {
+    width: 100%; }
 
 .feature-section {
-  text-align: center;
-  margin-bottom: 0; }
-  .feature-section .feature-section-title {
-    margin-top: 80px; }
+  text-align: center; }
   .feature-section .base-card {
     margin: 70px 0; }
     .feature-section .base-card .card-body {
@@ -15141,10 +15133,127 @@ nav {
       .feature-section .base-card .card-body .card-title {
         margin: 15px 0; }
 
-.testimional-section {
+.testimionial-section {
   color: white;
-  margin-top: 0; }
-  .testimional-section .testimional-text {
-    font-size: 40px; }
+  padding: 60px 0; }
+  .testimionial-section .testimionial-text {
+    font-size: 36.4px;
+    font-weight: 300; }
+  .testimionial-section .author-name {
+    font-size: 15px;
+    font-weight: 200; }
+  .testimionial-section .testimonial-author-img {
+    width: 100%;
+    max-width: 320px; }
+
+.bento-card-section .bento-title {
+  margin-bottom: 50px; }
+.bento-card-section .card {
+  background: white;
+  width: 100%;
+  min-height: 240px;
+  padding: 50px;
+  margin-bottom: 20px; }
+  .bento-card-section .card .card-title {
+    margin: 15px 0;
+    font-weight: 400;
+    font-size: 18.9px; }
+
+.cta-section .cta-section-titles {
+  color: #74746a;
+  font-weight: 200;
+  margin-bottom: 50px; }
+  .cta-section .cta-section-titles span {
+    color: black; }
+.cta-section .cta-section-card .card-second {
+  background: #f2f1e8 !important; }
+.cta-section .cta-section-card .card {
+  background: white;
+  width: 100%;
+  min-height: 240px;
+  padding: 50px;
+  margin-bottom: 20px; }
+  .cta-section .cta-section-card .card:first-child {
+    background: white; }
+  .cta-section .cta-section-card .card a {
+    width: 100%; }
+  .cta-section .cta-section-card .card .card-title {
+    margin: 25px 0;
+    font-weight: 400;
+    font-size: 18.9px; }
+  .cta-section .cta-section-card .card .card-link {
+    margin-top: 50px; }
+    .cta-section .cta-section-card .card .card-link a {
+      text-decoration: none;
+      padding: 15px;
+      background: #0b3721;
+      color: white; }
+
+.incentives-section .incentives-text {
+  text-align: center;
+  margin-bottom: 40px; }
+.incentives-section .inventices-card .card {
+  margin-bottom: 30px;
+  background: white; }
+  .incentives-section .inventices-card .card .card-body {
+    padding: 40px 20px; }
+  .incentives-section .inventices-card .card img {
+    width: 100%; }
+
+.newsletter-section {
+  text-align: center;
+  background: white; }
+  .newsletter-section .newsletter-title {
+    max-width: 384px;
+    margin: 20px auto; }
+  .newsletter-section .newsletter-description {
+    max-width: 380px;
+    margin: 20px auto;
+    margin-bottom: 60px; }
+  .newsletter-section .newsletter-card {
+    padding: 50px;
+    text-align: start;
+    color: white; }
+    .newsletter-section .newsletter-card .newsletter-card-title {
+      font-weight: 200; }
+    .newsletter-section .newsletter-card hr {
+      margin-top: 0; }
+    .newsletter-section .newsletter-card .newsletter-card-description {
+      font-size: 22px;
+      margin-bottom: 0; }
+      .newsletter-section .newsletter-card .newsletter-card-description span {
+        opacity: 75%; }
+    .newsletter-section .newsletter-card .newsletter-input-part {
+      width: 100%; }
+      .newsletter-section .newsletter-card .newsletter-input-part .newsletter-input {
+        min-width: 414px;
+        padding: 15px 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.16) !important; }
+        .newsletter-section .newsletter-card .newsletter-input-part .newsletter-input input {
+          background: none; }
+      .newsletter-section .newsletter-card .newsletter-input-part .newsletter-button {
+        min-width: 210px;
+        border-radius: 10px;
+        padding: 15px 10px;
+        margin-top: 20px; }
+
+.testimionial-second-section {
+  color: white; }
+  .testimionial-second-section .testimionial-text {
+    font-size: 36.4px;
+    font-weight: 300; }
+  .testimionial-second-section .author-name {
+    font-size: 15px;
+    font-weight: 200; }
+  .testimionial-second-section .testimonial-author-img {
+    width: 100%;
+    max-width: 320px; }
+  .testimionial-second-section .testimionial-description {
+    margin-top: 20px;
+    font-size: 12px; }
 
 /*# sourceMappingURL=style.css.map */

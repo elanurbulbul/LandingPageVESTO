@@ -35,7 +35,8 @@ $container-max-widths: (
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 section {
-  margin: 90px 0;
+  padding: 70px 0;
+  margin: 0;
 }
 
 .inter {
@@ -75,7 +76,7 @@ section {
   background: #f2f1e8;
   text-align: center;
   padding: 50px 0;
-  margin-bottom: 0;
+
   .brands-section-description {
     font-size: 21px;
     margin-bottom: 50px;
@@ -86,10 +87,6 @@ section {
 }
 .feature-section {
   text-align: center;
-  margin-top: 0;
-  .feature-section-title {
-    margin-top: 80px;
-  }
   .base-card {
     margin: 70px 0;
     .card-body {
@@ -102,7 +99,6 @@ section {
 }
 .testimionial-section {
   color: white;
-  margin: 0;
   padding: 60px 0;
   .testimionial-text {
     font-size: 36.4px;
@@ -118,8 +114,6 @@ section {
   }
 }
 .bento-card-section {
-  padding: 60px 0;
-  margin: 0;
   .bento-title {
     margin-bottom: 50px;
   }
@@ -137,8 +131,6 @@ section {
   }
 }
 .cta-section {
-  padding: 60px 0;
-  margin: 0;
   .cta-section-titles {
     color: #74746a;
     font-weight: 200;
@@ -199,40 +191,38 @@ section {
   }
 }
 .newsletter-section {
-  margin-bottom: 0 ;
   text-align: center;
   background: white;
-  padding: 60px 0;
- 
-  .newsletter-title{
+
+  .newsletter-title {
     max-width: 384px;
     margin: 20px auto;
   }
-  .newsletter-description{
+  .newsletter-description {
     max-width: 380px;
     margin: 20px auto;
     margin-bottom: 60px;
   }
-  .newsletter-card{ 
+  .newsletter-card {
     padding: 50px;
     text-align: start;
     color: white;
-    .newsletter-card-title{
+    .newsletter-card-title {
       font-weight: 200;
     }
-    hr{
+    hr {
       margin-top: 0;
     }
-    .newsletter-card-description{
+    .newsletter-card-description {
       font-size: 22px;
       margin-bottom: 0;
-      span{
+      span {
         opacity: 75%;
       }
     }
-    .newsletter-input-part{
+    .newsletter-input-part {
       width: 100%;
-      .newsletter-input{
+      .newsletter-input {
         min-width: 414px;
         padding: 15px 10px;
         margin-top: 20px;
@@ -240,25 +230,21 @@ section {
         border-radius: 8px;
         border: none;
         background: rgba(255, 255, 255, 0.16) !important;
-        input{
-          background:none;
+        input {
+          background: none;
         }
       }
-      .newsletter-button{
-    
+      .newsletter-button {
         min-width: 210px;
         border-radius: 10px;
-        padding:15px 10px;
+        padding: 15px 10px;
         margin-top: 20px;
       }
     }
   }
-  
 }
 .testimionial-second-section {
   color: white;
-  margin: 0;
-  padding: 60px 0;
   .testimionial-text {
     font-size: 36.4px;
     font-weight: 300;
@@ -271,7 +257,7 @@ section {
     width: 100%;
     max-width: 320px;
   }
-  .testimionial-description{
+  .testimionial-description {
     margin-top: 20px;
     font-size: 12px;
   }
