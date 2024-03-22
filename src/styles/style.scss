@@ -124,6 +124,7 @@ section {
     margin-bottom: 50px;
   }
   .card{
+    background: white;
     width: 100%;
     min-height: 240px;
     padding:50px;
@@ -151,10 +152,14 @@ section {
       background: #F2F1E8 !important;
     }
     .card{
+      background: white;
       width: 100%;
       min-height: 240px;
       padding:50px;
       margin-bottom: 20px;
+      &:first-child{
+        background: white;
+      }
       a{
         width: 100%;
       }
@@ -173,5 +178,22 @@ section {
         }
       }
     } 
+  }
+}
+.incentives-section{
+  .incentives-text{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .inventices-card{
+    .card{
+      background: white;
+      .card-body{
+        padding:40px 20px;
+      }
+      img{
+        width: 100%;
+      }
+    }
   }
 }
