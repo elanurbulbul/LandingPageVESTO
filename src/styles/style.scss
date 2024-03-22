@@ -72,7 +72,7 @@ section {
   }
 }
 .brands-section {
-  background: #F2F1E8;
+  background: #f2f1e8;
   text-align: center;
   padding: 50px 0;
   margin-bottom: 0;
@@ -80,7 +80,7 @@ section {
     font-size: 21px;
     margin-bottom: 50px;
   }
-   .brands-section-list {
+  .brands-section-list {
     width: 100%;
   }
 }
@@ -102,7 +102,7 @@ section {
 }
 .testimionial-section {
   color: white;
-  margin:0;
+  margin: 0;
   padding: 60px 0;
   .testimionial-text {
     font-size: 36.4px;
@@ -115,85 +115,142 @@ section {
   .testimonial-author-img {
     width: 100%;
     max-width: 320px;
-  } 
+  }
 }
-.bento-card-section{
+.bento-card-section {
   padding: 60px 0;
   margin: 0;
-  .bento-title{
+  .bento-title {
     margin-bottom: 50px;
   }
-  .card{
+  .card {
     background: white;
     width: 100%;
     min-height: 240px;
-    padding:50px;
+    padding: 50px;
     margin-bottom: 20px;
-    .card-title{
+    .card-title {
       margin: 15px 0;
       font-weight: 400;
       font-size: 18.9px;
     }
-  } 
+  }
 }
-.cta-section{
+.cta-section {
   padding: 60px 0;
   margin: 0;
-  .cta-section-titles{
-    color: #74746A;
+  .cta-section-titles {
+    color: #74746a;
     font-weight: 200;
     margin-bottom: 50px;
-      span{
-        color: black;
-      }
-  }
-  .cta-section-card{
-    .card-second{
-      background: #F2F1E8 !important;
+    span {
+      color: black;
     }
-    .card{
+  }
+  .cta-section-card {
+    .card-second {
+      background: #f2f1e8 !important;
+    }
+    .card {
       background: white;
       width: 100%;
       min-height: 240px;
-      padding:50px;
+      padding: 50px;
       margin-bottom: 20px;
-      &:first-child{
+      &:first-child {
         background: white;
       }
-      a{
+      a {
         width: 100%;
       }
-      .card-title{
+      .card-title {
         margin: 25px 0;
         font-weight: 400;
         font-size: 18.9px;
       }
-      .card-link{
+      .card-link {
         margin-top: 50px;
-        a{
+        a {
           text-decoration: none;
           padding: 15px;
           background: $primary;
           color: white;
         }
       }
-    } 
+    }
   }
 }
-.incentives-section{
-  .incentives-text{
+.incentives-section {
+  .incentives-text {
     text-align: center;
     margin-bottom: 40px;
   }
-  .inventices-card{
-    .card{
+  .inventices-card {
+    .card {
+      margin-bottom: 30px;
       background: white;
-      .card-body{
-        padding:40px 20px;
+      .card-body {
+        padding: 40px 20px;
       }
-      img{
+      img {
         width: 100%;
       }
     }
   }
+}
+.newsletter-section {
+  text-align: center;
+  background: white;
+  padding: 60px 0;
+ 
+  .newsletter-title{
+    max-width: 384px;
+    margin: 20px auto;
+  }
+  .newsletter-description{
+    max-width: 380px;
+    margin: 20px auto;
+    margin-bottom: 60px;
+  }
+  .newsletter-card{ 
+    padding: 50px;
+    text-align: start;
+    color: white;
+    .newsletter-card-title{
+      font-weight: 200;
+    }
+    hr{
+      margin-top: 0;
+    }
+    .newsletter-card-description{
+      font-size: 22px;
+      margin-bottom: 0;
+      span{
+        opacity: 75%;
+      }
+    }
+    .newsletter-input-part{
+      width: 100%;
+      .newsletter-input{
+        min-width: 414px;
+        padding: 15px 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.16) !important;
+        input{
+          background:none;
+        }
+      }
+      .newsletter-button{
+    
+        min-width: 210px;
+        border-radius: 10px;
+        padding:15px 10px;
+        margin-top: 20px;
+      }
+    }
+  }
+  
 }
