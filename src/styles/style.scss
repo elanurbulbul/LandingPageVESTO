@@ -1,4 +1,6 @@
 @import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/swiper/swiper.css";
+@import "../../node_modules/swiper/swiper-bundle.css";
 
 // Customize some defaults
 
@@ -76,15 +78,21 @@ section {
   background: #f2f1e8;
   text-align: center;
   padding: 50px 0;
-
   .brands-section-description {
     font-size: 21px;
     margin-bottom: 50px;
   }
   .brands-section-list {
     width: 100%;
+    .brand {
+      margin: 10px 0;
+      img {
+        margin: auto;
+        width: 50%;
+      }
+    }
   }
-}
+} 
 .feature-section {
   text-align: center;
   .base-card {
@@ -261,4 +269,29 @@ section {
     margin-top: 20px;
     font-size: 12px;
   }
+}
+.swiper-section{
+  .swiper-description{
+    padding: 0 40px;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-wrapper{
+    width: 100%;
+    .swiper-slide{
+      width: 100%;
+      align-content: center;
+      .swiper-img{
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+ 
 }

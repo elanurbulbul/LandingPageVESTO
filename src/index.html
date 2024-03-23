@@ -5,11 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap w/ Vite</title>
-    <script type="module" src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-        </script>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +12,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script type="module" src="js/main.js"></script>
+
 </head>
 
 <body class="body-bg inter">
@@ -120,7 +121,7 @@
                     <p>Leading companies use Vesto as their treasury management system</p>
                 </div>
                 <div
-                    class="brands-section-list row row-cols-xxl-6 row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+                    class="brands-section-list row row-cols-xxl-6 row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center align-items-center ">
                     <div class="brand col">
                         <a href="#">
                             <img src="img/brands-logo/treecard-logo.png" alt="">
@@ -575,10 +576,10 @@
         <section class="testimionial-second-section bg-primary ">
             <div class="container">
                 <div class="row">
-                    <div class="col col-lg-4 col-md-6 col-12 mb-md-0 mb-3">
+                    <div class="col col-lg-4  col-12 mb-md-0 mb-3">
                         <img class="testimonial-author-img " src="img/second-author-image.png" alt="">
                     </div>
-                    <div class="col col-lg-8 col-md-6 col-12 align-self-center ">
+                    <div class="col col-lg-8  col-12 align-self-center ">
                         <div class="testimionial-text">“Vesto is a no brainer for startups sitting on funding to extend
                             their runway, or just for bootstrappers to build up their war chest.” </div>
                         <div class="author-name"> – Andrew Wilkinson</div>
@@ -589,6 +590,76 @@
                             a direct interest in the success of the Company.</div>
                     </div>
                 </div>
+            </div>
+            </div>
+        </section>
+        <section class="swiper-section">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col col-xxl-3 col-xl-4 col-12 align-self-center ">
+                        <div class="swiper-description">
+                            <div class="swipers-title">
+                                <h2>Case studies</h2>
+                            </div>
+                            <a class="btn btn-primary">
+                                Schedule a demo
+                                <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col-xxl-9 col-xl-8 col-12">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide align-content-center">
+                                    <div class="card swiper-card">
+                                        <div class="swiper-img">
+                                            <img src="img/swiper-img/mercantile-slide.png" class="w-100 h-100 " alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide align-content-center">
+                                    <div class="card swiper-card">
+                                        <div class="swiper-img">
+                                            <img src="img/swiper-img/assemble-slide.png" class="w-100 h-100 " alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide align-content-center">
+                                    <div class="card swiper-card">
+                                        <div class="swiper-img">
+                                            <img src="img/swiper-img/mercantile-slide.png" class="w-100 h-100 " alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide align-content-center">
+                                    <div class="card swiper-card">
+                                        <div class="swiper-img">
+                                            <img src="img/swiper-img/assemble-slide.png" class="w-100 h-100 " alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide align-content-center">
+                                    <div class="card swiper-card">
+                                        <div class="swiper-img">
+                                            <img src="img/swiper-img/mercantile-slide.png" class="w-100 h-100 " alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-button-prev "></div>
+                            <div class="swiper-button-next"></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
             </div>
         </section>
