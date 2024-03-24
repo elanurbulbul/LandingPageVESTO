@@ -295,3 +295,18 @@ section {
   }
  
 }
+.newsletter-second-section{
+  position: relative;
+  text-align: center;
+  .newsletter-section-title{
+    color: white;
+    font-weight: 300;
+    max-width: 471px;
+    margin: auto;
+  }
+  .newsletter-brand-logo{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+  }
+}
